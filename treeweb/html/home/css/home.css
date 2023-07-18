@@ -1,0 +1,87 @@
+/* home.css */
+
+body {
+    background-image: url('../image/rietc.png');
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;  /* This will prevent the image from repeating */
+    background-size: cover;  /* This will resize the image to cover the entire element */
+    background-position: center;  /* This will center the image in the element */
+  }
+  
+  .element {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #111;
+  }
+  
+  .text1 {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    color: #ffd000;
+  }
+  
+  .enterwesite {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #fa0404;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enterwesite:hover {
+    background-color: #111;
+  }
+
+/* CSS code for the slide-in bar */
+.slidein-bar {
+    background-image: url('../image/ป้ายวิทยาลัย.jpg');
+    background-repeat: no-repeat;  /* This will prevent the image from repeating */
+    background-size: cover;  /* This will resize the image to cover the entire element */
+    background-position: center;  /* This will center the image in the element */
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: #333;
+    color: #fff;
+    padding: 400px;
+    transition: transform 0.3s ease;
+    transform: translate(-50%, -100%);
+  }
+  
+  .slidein-bar.show {
+    transform: translate(-50%, 0);
+  }
+  
